@@ -3,10 +3,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:layout_gravity="center"
     android:gravity="center"
+    android:orientation="vertical"
     tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/currency_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Podaj nazwe waluty"/>
+
+    <EditText
+        android:id="@+id/currency_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Podaj ilosc do sprzedania"/>
 
     <TextView
         android:id="@+id/currency_text"
