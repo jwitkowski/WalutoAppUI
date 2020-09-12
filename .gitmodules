@@ -1,0 +1,3 @@
+[submodule "WalutoApp"]
+	path = WalutoApp
+	url = https://github.com/jwitkowski/WalutoApp.git
